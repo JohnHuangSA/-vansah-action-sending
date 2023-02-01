@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Import results to Vansah
-      uses: testpointcorp/vansah-action
+      uses: testpointcorp/vansah-action@main
       with:
         vansahtoken: ${{ secrets.vansahtoken }}
         testFormat: "junit"
