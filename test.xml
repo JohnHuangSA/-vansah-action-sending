@@ -1,0 +1,15 @@
+ <test-method status="PASS" signature="CanAddNumbers()[pri:0, instance:com.xpand.java.CalcTest@36d4b5c]" name="CanAddNumbers" duration-ms="2" started-at="2018-03-06T17:22:48Z" finished-at="2018-03-06T17:22:48Z">
+  <reporter-output>
+  </reporter-output>
+  <attributes>
+    <attribute name="Test Case"> //FLAG FOR ATTRIBUTE TO DEFINE TEST CASE INFO
+      <![CDATA[VFJMT-C21]]> //TEST CASE KEY
+    </attribute> <!-- test -->
+    <attribute name="ISSUE-KEY">
+      <![CDATA[VFJMT-2122]]> //JIRA ISSUE KEY WHICH WAS TESTED AGAINST OR THE FOLDER IDENTIFIER
+    </attribute> <!-- requirement -->
+    <attribute name="ENVIRONMENT"> //TEST PROPERTIES
+      <![CDATA[core addition]]>
+    </attribute> <!-- labels -->
+  </attributes>
+</test-method> <!-- CanAddNumbers -->
