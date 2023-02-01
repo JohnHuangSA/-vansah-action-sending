@@ -1,0 +1,20 @@
+name: GitHub Actions Build and Deploy Demo
+on:
+  push:
+    branches:
+      - main
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@main
+
+    - name: Import results to Vansah
+      uses: testpointcorp/vansah-action@{latest-release}
+      with:
+        vansahtoken: ${{ secrets.vansahtoken }}
+        testFormat: "junit"
+        testPaths: "/test.xml"
+        issueKey: "MYD3-1"
+        comment: "BUILD ID#"
